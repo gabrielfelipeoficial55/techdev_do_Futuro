@@ -22,7 +22,11 @@ html, body {
 
 body {
 
-    background: var(--color-gradient-dark);
+    background: var(--color-gradient-dark-body);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 
 }
 

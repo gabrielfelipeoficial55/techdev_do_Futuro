@@ -9,4 +9,49 @@
 
 /* ? GLOBAL CSS */
 
+.main {
 
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.main .hero {
+
+    width: 100dvh;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 2rem;
+
+}
+
+.hero .hero-title {
+
+    text-align: initial;
+    font-family: var(--font-family);
+    font-size: 4.4rem;
+    font-weight: bold;
+    line-height: 6.3rem;
+    background: var(--color-gradient-h1-hero-index);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    text-transform: uppercase;
+    -webkit-text-stroke: var(--stroke-text-h1-hero-index);
+    position: relative;
+    top: -50px;
+    text-shadow: var(--shadow-text-h1-hero-index);
+
+}
+
+.hero .hero-description {
+
+    font-size: 1.2rem;
+    line-height: 1.6rem;
+    color: var(--color-base-light3);
+    letter-spacing: 0.0725rem;
+ 
+}

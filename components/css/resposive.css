@@ -24,11 +24,12 @@
         content: "";
         width: 30%;
         height: auto;
-        top: 90px;
+        top: 93px;
         right: 20px;
         background: var(--color-gradient-nav);
         padding: 40px 18px;
         border-radius: 8px;
+        z-index: 1000;
 
     } 
 
@@ -70,6 +71,13 @@
     .header {
 
         padding: 0.5rem 0.5rem;
+
+    }
+
+    .main .hero .hero-description {
+
+        font-size: 1rem;
+        line-height: 1.4rem;
 
     }
 

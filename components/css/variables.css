@@ -17,8 +17,10 @@
     --color-base-dark2:  #171717;
     --color-base-dark1:  #121212;
     --color-base-dark:   #000000;
-    --color-base-dark-nav-mobile-bg: #000000c4;
-    --color-base-dark-nav-mobile-bg1: #121212ec;
+    --color-base-dark01-gradient-header:  #000000cb;
+    --color-base-dark-gradient-header:   #000000c7;
+    --color-base-dark-nav-mobile-bg: #000000d5;
+    --color-base-dark-nav-mobile-bg1: #121212f1;
     /* ~ ========== PRIMARY ======== */
     --color-primary1: #8342E5;
     --color-primary2: #8844EE;
@@ -41,15 +43,23 @@
     
     /*  ========== GRADIENTS COLORS ======== */
 
-    --color-gradient-dark: linear-gradient(90deg, var(--color-base-dark) 0%, var(--color-base-dark1) 100%);
+    --color-gradient-dark-body: linear-gradient(to bottom, var(--color-base-dark-gradient-header) 10%, var(--color-base-dark-nav-mobile-bg1) 50%), url("./../../assets/imgs/code2.jpg");
     --color-gradient-nav: linear-gradient(90deg, var(--color-base-dark-nav-mobile-bg) 0%, var(--color-base-dark-nav-mobile-bg1) 100%);
-
+    --color-gradient-header: linear-gradient(90deg, var(--color-base-dark-gradient-header) 0%, var(--color-base-dark01-gradient-header) 100%);
+    --color-gradient-h1-hero-index: linear-gradient(90deg,  var(--color-base-dark-gradient-header) 5%, var(--color-primary4) 10%,var(--color-primary2) 35%, var(--color-primary1) 75%,  var(--color-primary4) 80% var(--color-base-dark-gradient-header) 90%);
 
     /* ? ========== FONTS CSS ========== */
     --font-family: "Oswald", sans-serif;
 
     /* ? ========== BORDERS CSS ========== */
     --border-link-active: 2.3px solid var(--color-primary1);
+
+    /* ? ========== SHADOW TEXT CSS ========== */
+    --shadow-text-h1-hero-index: 0px 0px 10px var(--color-primary3);
+
+    /* ? ========== STROKER TEXT CSS ========== */
+    --stroke-text-h1-hero-index: 1.5px var(--color-base-light3);
+
 
 
 }
