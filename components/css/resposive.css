@@ -1,0 +1,76 @@
+/* ? RESPONSIVE CSS */
+
+/* ~ HEADER */
+
+@media screen and (max-width: 900px) {
+
+    .navbar {
+
+        display: none;
+        transition: all 0.5s ease-in-out;
+
+    }
+
+    .btn-mobile-box {
+
+        visibility: visible;
+
+    }
+
+    .navbar.active {
+
+        position: absolute;
+        display: block;
+        content: "";
+        width: 30%;
+        height: auto;
+        top: 90px;
+        right: 20px;
+        background: var(--color-gradient-nav);
+        padding: 40px 18px;
+        border-radius: 8px;
+
+    } 
+
+    .navbar.active .nav-items {
+
+        flex-direction: column;
+        text-align: left;
+        align-items: start;
+        justify-content: left;
+
+    }
+
+}
+
+@media screen and (max-width: 500px) {
+
+    
+    .navbar.active {
+
+        position: absolute;
+        display: block;
+        content: "";
+        width: 90%;
+        height: auto;
+        top: 90px;
+        right: 20px;
+        background: var(--color-gradient-nav);
+        padding: 40px 18px;
+        border-radius: 8px;
+        z-index: 1;
+
+    } 
+
+
+}
+
+@media screen and (max-width: 400px) {
+
+    .header {
+
+        padding: 0.5rem 0.5rem;
+
+    }
+
+}

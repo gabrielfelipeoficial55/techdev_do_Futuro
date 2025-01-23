@@ -1,0 +1,55 @@
+/* ? VARIABLES CSS */
+
+:root {
+
+    /* ? COLORS CSS */
+
+    /* & ========== LIGHT ======== */
+    --color-base-light:  #FFFFFF;
+    --color-base-light1: #FAFAFA;
+    --color-base-light2: #D1D1D1;
+    --color-base-light3: #BDBDBD;
+    --color-base-light4: #AFAFAF;
+    /** ========== DARK ======== */
+    --color-base-dark5:  #3B3B3B;
+    --color-base-dark4:  #363636;
+    --color-base-dark3:  #2E2E2E;
+    --color-base-dark2:  #171717;
+    --color-base-dark1:  #121212;
+    --color-base-dark:   #000000;
+    --color-base-dark-nav-mobile-bg: #000000c4;
+    --color-base-dark-nav-mobile-bg1: #121212ec;
+    /* ~ ========== PRIMARY ======== */
+    --color-primary1: #8342E5;
+    --color-primary2: #8844EE;
+    --color-primary3: #7038C3;
+    --color-primary4: #5C2FA1;
+    --color-primary5: #49257F;
+    --color-primary6: #422377;
+    /* ! ========== FUNCTIONS COLORS ======== */
+    --color-functions-r:  #FF0500;
+    --color-functions-r1: #C90014;
+    --color-functions-r2: #A6171C;
+    --color-functions-r3: #731909;
+    --color-functions-r4: #451C1E;
+    
+    --color-funtions-g:  #15F400; 
+    --color-funtions-g1: #24BC0D; 
+    --color-funtions-g2: #1F8C2A; 
+    --color-funtions-g3: #275423; 
+    --color-funtions-g4: #1B3B15; 
+    
+    /*  ========== GRADIENTS COLORS ======== */
+
+    --color-gradient-dark: linear-gradient(90deg, var(--color-base-dark) 0%, var(--color-base-dark1) 100%);
+    --color-gradient-nav: linear-gradient(90deg, var(--color-base-dark-nav-mobile-bg) 0%, var(--color-base-dark-nav-mobile-bg1) 100%);
+
+
+    /* ? ========== FONTS CSS ========== */
+    --font-family: "Oswald", sans-serif;
+
+    /* ? ========== BORDERS CSS ========== */
+    --border-link-active: 2.3px solid var(--color-primary1);
+
+
+}
