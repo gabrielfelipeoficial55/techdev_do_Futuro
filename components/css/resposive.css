@@ -14,7 +14,7 @@
 
     .btn-mobile-box {
 
-        visibility: visible;
+        display: block;
 
     }
 
