@@ -16,7 +16,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 2rem;
+    gap: 2rem; /* 2rem = 32px */
 
 }
 
@@ -28,7 +28,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 0px 2rem;
+    padding: 0px 2rem; /* 0px  2rem = 32px */
 
 }
 
@@ -36,7 +36,7 @@
 
     text-align: left;
     font-family: var(--font-family);
-    font-size: 4.4rem;
+    font-size: 4.4rem; /* 4.4rem = 70.4px */
     font-weight: bold;
     background: var(--color-gradient-h1-hero-index);
     background-clip: text;
@@ -52,7 +52,7 @@
 
     text-align: left;
     font-family: var(--font-family);
-    font-size: 2.4rem;
+    font-size: 2.4rem; /* 2.4rem = 38.4px */
     font-weight: bold;
     background: var(--color-gradient-h1-hero-index);
     background-clip: text;
@@ -66,11 +66,11 @@
 
 .hero .hero-description {
 
-    font-size: 1.2rem;
-    line-height: 1.6rem;
+    font-size: 1.2rem; /* 1.2rem = 19.2px */
+    line-height: 1.6rem; /* 1.6rem = 25.6px */
     color: var(--color-base-light3);
-    letter-spacing: 0.0725rem;
-    max-width: 46ch;
+    letter-spacing: 0.0725rem; /* 0.0725rem = 1.16px */
+    max-width: 46ch; /* Quantidade de caracteres por largura = maxímo 46 caracteres */
  
 }
 
@@ -79,15 +79,15 @@
     width: 100%;
     display: flex;
     flex-direction: column;
-    gap: 1.4rem;
-    padding: 0px 3rem 3rem 3rem;
+    gap: 1.4rem; /* 1.4rem = 22.4px */
+    padding: 0px 3rem 3rem 3rem; /* 3rem = 48px */
 
 }
 
 .tecnologias .subtitle {
 
     text-align: center;
-    margin-bottom: 1.2rem;
+    margin-bottom: 1.2rem; /* 1.2rem = 19.2px */
 
 }
 
@@ -97,17 +97,18 @@
     grid-template-columns: repeat(2, 1fr);
     justify-content: center;
     align-items: center;
-    gap: 1.4rem;
+    gap: 1.4rem; /* 1.4rem = 22.4px */
+
 }
 
 .cards .card {
 
     height: auto;
     background: var(--color-base-dark2);
-    padding: 1.875rem 1.875rem;
-    border-radius: 0.5rem;
+    padding: 1.875rem 1.875rem; /* 1.875rem = 30px */
+    border-radius: 0.5rem; /* 0.5rem = 8px */
     display: flex;
-    gap: 1.4rem;
+    gap: 1.4rem; /* 1.4rem = 22.4px */
     border: 2px solid;
 
 }
@@ -189,23 +190,24 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 1rem;
+    gap: 1rem; /* 1rem = 16px*/
 
 }
 
 .card .description-tecnologia .tecnologia-title {
 
-    font-size: 1.4rem;
-    letter-spacing: 0.0025rem;
+    font-size: 1.4rem; /* 1.4rem = 22.4px */
+    letter-spacing: 0.0025rem; /* 0.0025rem = 0.04px */
 
 }
 
 .card .description-tecnologia .text-content {
 
-    font-size: 18px;
-    letter-spacing: 0.035rem;
+    font-size: 1.125rem; /* 1.125rem = 18px */
+    letter-spacing: 0.035rem; /* 0.035rem = 0.56px */
     line-height: 30px;
     font-weight: 300;
+    line-height: 1.875rem; /* 30px = 1.875rem */
     color:  var(--color-base-light3);
 
 }
