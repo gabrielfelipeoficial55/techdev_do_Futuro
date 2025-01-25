@@ -6,6 +6,7 @@
 @import "./reset.css";
 @import "./components.css";
 @import "./resposive.css";
+@import "./animation.css";
 
 /* ? GLOBAL CSS */
 
@@ -45,6 +46,21 @@
     text-transform: uppercase;
     -webkit-text-stroke: var(--stroke-text-h1-hero-index);
     text-shadow: var(--shadow-text-h1-hero-index);
+    position: relative;
+
+}
+
+.hero .hero-title::after {
+
+    position: absolute;
+    content: "|";
+    color: var(--color-base-light3);
+    margin-left: 0.25rem; /* 4px = 0.25rem */
+    -webkit-text-stroke: var(--stroke-text-h1-hero-index);
+    text-shadow: var(--shadow-text-h1-hero-index);
+    animation: machineWriter 0.9s infinite;
+    top: -4px;
+    
 
 }
 

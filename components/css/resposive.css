@@ -38,7 +38,7 @@
         top: 93px;
         right: 20px;
         background: var(--color-gradient-nav);
-        padding: 40px 18px;
+        padding: 2.5rem 1.125rem; /* 2.5rem = 40px, 1.125rem = 18px */
         border-radius: 8px;
         z-index: 1000;
         opacity: 1;
@@ -51,6 +51,18 @@
         text-align: left;
         align-items: start;
         justify-content: left;
+
+    }
+
+    .main .hero .hero-title {
+
+        font-size: 3rem; /* 3rem = 48px */
+
+    }
+
+    .main .hero .hero-description {
+
+        font-size: 1.1rem; /* 1.1rem = 17.6px */
 
     }
 
@@ -69,11 +81,24 @@
         top: 90px;
         right: 20px;
         background: var(--color-gradient-nav);
-        padding: 40px 18px;
+        padding: 2.5rem 1.125rem; /* 2.5rem = 40px, 1.125rem = 18px */
         border-radius: 8px;
         z-index: 1;
 
     } 
+
+    .main .hero .hero-title {
+
+        font-size: 2rem; /* 2rem = 32px */
+
+    }
+
+    .main .hero .hero-description {
+
+        font-size: 1rem; /* 1rem = 1px */
+
+    }
+
 
 
 }
@@ -82,14 +107,26 @@
 
     .header {
 
-        padding: 0.5rem 0.5rem;
+        padding: 0.5rem 0.5rem; /* 0.5rem = 8px */
 
     }
 
     .main .hero .hero-description {
 
-        font-size: 1rem;
-        line-height: 1.4rem;
+        font-size: 1rem; /* 1rem = 16px*/
+        line-height: 1.4rem; /* 1.4rem = 22.4px */
+
+    }
+
+    .main .hero .hero-title {
+
+        font-size: 1.4rem; /* 1.4rem = 22.4px */
+
+    }
+
+    .main .hero .hero-description {
+
+        font-size: 0.5rem; /* 0.5rem = 8px */
 
     }
 
