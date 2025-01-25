@@ -4,9 +4,21 @@ const title = document.querySelector("h1");
 
 btnMobile.addEventListener('click', () => {
 
-    navbar.classList.toggle('active');
 
-})
+    if(navbar.classList.contains("active")) {
+
+        navbar.classList.remove('active');
+
+    }else {
+
+        navbar.classList.add('active');
+        navbar.style.animation = "navMobileStart 0.5s ease-in-out";
+        
+
+    }
+    
+
+});
 
 function machineWriter(element) {
 

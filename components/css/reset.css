@@ -1,40 +1,57 @@
-/* ? RESET CSS */
+/* RESET CSS */
 
 * {
-
-    padding: 0px;
-    margin: 0px;
-    border: 0px;
+    padding: 0;
+    margin: 0;
+    border: 0;
     list-style-type: none;
     text-decoration: none;
     box-sizing: border-box;
-    font-family: "DM Sans", serif;  
-
+    font-family: "DM Sans", serif;
 }
 
 body {
-
     width: 100%;
     height: 100vh;
-    transition: all 1s ease-in-out;
     background: var(--color-gradient-body);
+}
 
+#id {
+    overflow: hidden;
 }
 
 .hero {
-
     background: var(--color-gradient-dark-hero);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-
 }
 
 img {
-
     max-width: 100%;
     height: auto;
     display: block;
+}
 
+/* Scrollbar styles for WebKit browsers */
+::-webkit-scrollbar {
+    background-color: var(--color-base-dark);
+    width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 4px;
+    background: var(--color-base-dark4);
+}
+
+/* Scrollbar styles for Firefox */
+* {
+    scrollbar-width: thin;
+    scrollbar-color: var(--color-base-dark4) var(--color-base-dark);
+}
+
+/* Scrollbar styles for Internet Explorer and Edge */
+* {
+    -ms-overflow-style: -ms-autohiding-scrollbar;
 }

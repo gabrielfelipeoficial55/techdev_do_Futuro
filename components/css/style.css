@@ -87,6 +87,7 @@
     color: var(--color-base-light3);
     letter-spacing: 0.0725rem; /* 0.0725rem = 1.16px */
     max-width: 46ch; /* Quantidade de caracteres por largura = maxímo 46 caracteres */
+    animation: textDescriptionZooIn 7s forwards;
  
 }
 
@@ -228,3 +229,19 @@
 
 }
 
+/* ? ANIMATION FOR ELEMENTS SCROOL CSS */
+
+.anime {
+
+    opacity: 0;
+    transform: translate3d(0px, -15px, 0px);
+    transition: 1.5s ease;
+
+}
+
+.anime.animation-top-start {
+
+    opacity: 1;
+    transform: translate3d(0px, 0px, 0px);
+
+}

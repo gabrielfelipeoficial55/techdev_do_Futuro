@@ -11,7 +11,8 @@
     justify-content: space-between;
     align-items: center;
     background: var(--color-gradient-header);
-    position: fixed;
+    animation: headerAnimationTop 5s forwards;
+    /* transition: 0.5s ease; */
 
 }
 
@@ -181,7 +182,7 @@
 .footer {
 
     width: 100%;
-    height: 8%;
+    height: 22%;
     background: var(--color-base-dark);
     color: var(--color-base-light4);
     display: flex;
