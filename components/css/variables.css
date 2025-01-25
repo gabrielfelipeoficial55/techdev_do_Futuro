@@ -10,6 +10,7 @@
     --color-base-light2: #D1D1D1;
     --color-base-light3: #BDBDBD;
     --color-base-light4: #AFAFAF;
+
     /** ========== DARK ======== */
     --color-base-dark5:  #3B3B3B;
     --color-base-dark4:  #363636;
@@ -18,6 +19,25 @@
     --color-base-dark1:  #121212;
     --color-base-dark:   #000000;
 
+    /*^ ========== COLORS TECHS ======== */
+
+    --color-html:    #F06431;
+    --color-html-bg: #e34f26d2;
+
+    --color-css:     #2859EB;
+    --color-css-bg:  #082cbad2;
+
+    --color-js:      #bdaa05;
+    --color-js-bg:   #8b7e01e5;
+
+    --color-react:   #36bddf;
+    --color-react-bg:#1893b2da;
+
+    --color-node:    #72AA61;
+    --color-node-bg: #346127d3;
+    
+    --color-php:     #777BB3;
+    --color-php-bg:  #303469d2;
 
 
     /* ~ ========== PRIMARY ======== */
@@ -27,24 +47,12 @@
     --color-primary4: #5C2FA1;
     --color-primary5: #49257F;
     --color-primary6: #422377;
-    /* ! ========== FUNCTIONS COLORS ======== */
-    --color-functions-r:  #FF0500;
-    --color-functions-r1: #C90014;
-    --color-functions-r2: #A6171C;
-    --color-functions-r3: #731909;
-    --color-functions-r4: #451C1E;
-    
-    --color-funtions-g:  #15F400; 
-    --color-funtions-g1: #24BC0D; 
-    --color-funtions-g2: #1F8C2A; 
-    --color-funtions-g3: #275423; 
-    --color-funtions-g4: #1B3B15; 
     
     /*  ========== GRADIENTS COLORS ======== */
 
     /* & COLORS GRADIENTS */
-    --color-base-dark01-gradient-header:  #000000cb;
-    --color-base-dark-gradient-header:   #000000c7;
+    --color-base-dark01-gradient-header:  #000000;
+    --color-base-dark-gradient-header:   #000000e7;
 
     --color-base-dark01-gradient-hero:  #00000000;
     --color-base-dark-gradient-hero:   #000000ce;
@@ -54,10 +62,11 @@
 
     /*  ========== GRADIENTS ======== */
 
-    --color-gradient-dark-body: linear-gradient(to bottom, var(--color-base-dark01-gradient-hero) 10%, var(--color-base-dark01-gradient-hero) 20%, var(--color-base-dark-gradient-hero) 50%), url("./../../assets/imgs/background-hero1.png");
+    --color-gradient-dark-hero: linear-gradient(to bottom, var(--color-base-dark01-gradient-hero) 10%, var(--color-base-dark01-gradient-hero) 20%, var(--color-base-dark-gradient-hero) 50%), url("./../../assets/imgs/background-hero1.png");
     --color-gradient-nav: linear-gradient(90deg, var(--color-base-dark-nav-mobile-bg) 0%, var(--color-base-dark-nav-mobile-bg1) 100%);
     --color-gradient-header: linear-gradient(90deg, var(--color-base-dark-gradient-header) 0%, var(--color-base-dark01-gradient-header) 100%);
     --color-gradient-h1-hero-index: linear-gradient(90deg,  var(--color-base-dark-gradient-header) 5%, var(--color-primary4) 10%,var(--color-primary2) 35%, var(--color-primary1) 75%,  var(--color-primary4) 80% var(--color-base-dark-gradient-header) 90%);
+    --color-gradient-body: linear-gradient(90deg, var(--color-base-dark-gradient-header) 40%, var(--color-base-dark01-gradient-header) 100%);
 
     /* ? ========== FONTS CSS ========== */
     --font-family: "Oswald", sans-serif;

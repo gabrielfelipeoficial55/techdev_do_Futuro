@@ -10,7 +10,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* background: var(--color-gradient-header); */
+    background: var(--color-gradient-header);
+    position: fixed;
 
 }
 
@@ -83,5 +84,92 @@
     color: var(--color-base-light);
     cursor: pointer;
     transition: all 0.5s ease-in-out;
+
+}
+
+.btn-link-tecnologia {
+
+    padding: 8px 24px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0.035rem;
+    text-transform: uppercase;
+    color: var(--color-base-light);
+    background-color: transparent;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+
+}
+
+#html_btn {
+
+    background: var(--color-html);
+
+}
+
+#html_btn:hover {
+
+    background: var(--color-html-bg);
+
+}
+
+#css_btn {
+
+    background: var(--color-css);
+
+}
+
+#css_btn:hover {
+
+    background: var(--color-css-bg);
+
+}
+
+#js_btn {
+
+    background: var(--color-js);
+
+}
+
+#js_btn:hover {
+
+    background: var(--color-js-bg);
+
+}
+
+#react_btn {
+
+    background: var(--color-react);
+
+}
+
+#react_btn:hover {
+
+    background: var(--color-react-bg);
+
+}
+
+#node_btn {
+
+    background: var(--color-node);
+
+}
+
+#node_btn:hover {
+
+    background: var(--color-node-bg);
+
+}
+
+#php_btn {
+
+    background: var(--color-php);
+
+}
+
+#php_btn:hover {
+
+    background: var(--color-php-bg);
 
 }

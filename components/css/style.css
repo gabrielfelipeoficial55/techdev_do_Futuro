@@ -12,37 +12,54 @@
 .main {
 
     width: 100%;
-    height: 100%;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 2rem;
 
 }
 
 .main .hero {
 
-    width: 100dvh;
+    width: 100%;
+    height: 100vh;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
     padding: 0px 2rem;
 
 }
 
 .hero .hero-title {
 
-    text-align: initial;
+    text-align: left;
     font-family: var(--font-family);
     font-size: 4.4rem;
     font-weight: bold;
-    line-height: 6.3rem;
     background: var(--color-gradient-h1-hero-index);
     background-clip: text;
     -webkit-background-clip: text;
     color: transparent;
     text-transform: uppercase;
     -webkit-text-stroke: var(--stroke-text-h1-hero-index);
-    position: relative;
-    top: -50px;
+    text-shadow: var(--shadow-text-h1-hero-index);
+
+}
+
+.subtitle {
+
+    text-align: left;
+    font-family: var(--font-family);
+    font-size: 2.4rem;
+    font-weight: bold;
+    background: var(--color-gradient-h1-hero-index);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    text-transform: uppercase;
+    -webkit-text-stroke: var(--stroke-text-h1-hero-index);
     text-shadow: var(--shadow-text-h1-hero-index);
 
 }
@@ -53,5 +70,143 @@
     line-height: 1.6rem;
     color: var(--color-base-light3);
     letter-spacing: 0.0725rem;
+    max-width: 46ch;
  
 }
+
+.tecnologias {
+
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1.4rem;
+    padding: 0px 3rem 3rem 3rem;
+
+}
+
+.tecnologias .subtitle {
+
+    text-align: center;
+    margin-bottom: 1.2rem;
+
+}
+
+.tecnologias .cards {
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+    gap: 1.4rem;
+}
+
+.cards .card {
+
+    height: auto;
+    background: var(--color-base-dark2);
+    padding: 1.875rem 1.875rem;
+    border-radius: 0.5rem;
+    display: flex;
+    gap: 1.4rem;
+    border: 2px solid;
+
+}
+
+#html_card {
+
+    border-color: var(--color-html-bg);
+
+}
+
+#html_title {
+
+    color: var(--color-html);
+
+}
+
+#css_card {
+
+    border-color: var(--color-css-bg);
+
+}
+
+#css_title {
+
+    color: var(--color-css);
+
+}
+
+#js_card {
+
+    border-color: var(--color-js-bg);
+
+}
+
+#js_title {
+
+    color: var(--color-js);
+
+}
+
+#react_card {
+
+    border-color: var(--color-react-bg);
+
+}
+
+#react_title {
+
+    color: var(--color-react);
+
+}
+
+#node_card {
+
+    border-color: var(--color-node-bg);
+
+}
+
+#node_title {
+
+    color: var(--color-node);
+
+}
+
+#php_card {
+
+    border-color: var(--color-php-bg);
+
+}
+
+#php_title {
+
+    color: var(--color-php);
+
+}
+
+.card .description-tecnologia {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+
+}
+
+.card .description-tecnologia .tecnologia-title {
+
+    font-size: 1.4rem;
+    letter-spacing: 0.0025rem;
+
+}
+
+.card .description-tecnologia .text-content {
+
+    font-size: 18px;
+    letter-spacing: 0.035rem;
+    line-height: 30px;
+    font-weight: 300;
+    color:  var(--color-base-light3);
+
+}
+

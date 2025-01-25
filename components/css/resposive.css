@@ -2,6 +2,16 @@
 
 /* ~ HEADER */
 
+@media screen and (max-width: 1300px) {
+
+    .main .tecnologias .cards {
+
+        grid-template-columns: 1fr;
+
+    }
+
+}
+
 @media screen and (max-width: 900px) {
 
     .navbar {
