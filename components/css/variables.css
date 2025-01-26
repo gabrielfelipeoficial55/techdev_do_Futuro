@@ -6,14 +6,13 @@
 
     /* & ========== LIGHT ======== */
     --color-base-light:  #FFFFFF;
-    --color-base-light1: #FAFAFA;
-    --color-base-light3: #BDBDBD;
-    --color-base-light4: #AFAFAF;
+    --color-base-light-text: #FAFAFA;
+    --color-base-light-gray-medium: #BDBDBD;
+    --color-base-light-gray-hard: #AFAFAF;
 
     /** ========== DARK ======== */
-    --color-base-dark4:  #363636;
-    --color-base-dark2:  #171717;
     --color-base-dark:   #000000;
+    --color-base-dark-medium:  #171717;
 
     /*^ ========== COLORS TECHS ======== */
 
@@ -46,22 +45,21 @@
     /*  ========== GRADIENTS COLORS ======== */
 
     /* & COLORS GRADIENTS */
-    --color-base-dark01-gradient-header:  #000000;
-    --color-base-dark-gradient-header:   #000000e7;
+    --color-base-dark-gradient-header-alpha:   #000000e7;
 
-    --color-base-dark01-gradient-hero:  #00000000;
+    --color-base-dark-gradient-alpha-max:  #00000000;
     --color-base-dark-gradient-hero:   #000000ce;
 
     --color-base-dark-nav-mobile-bg: #000000d5;
-    --color-base-dark-nav-mobile-bg1: #121212f1;
+    --color-base-dark-nav-mobile-bg-alpha: #121212f1;
 
     /*  ========== GRADIENTS ======== */
 
-    --color-gradient-dark-hero: linear-gradient(to bottom, var(--color-base-dark01-gradient-hero) 10%, var(--color-base-dark01-gradient-hero) 20%, var(--color-base-dark-gradient-hero) 50%), url("./../../assets/imgs/background-hero1.png");
-    --color-gradient-nav: linear-gradient(90deg, var(--color-base-dark-nav-mobile-bg) 0%, var(--color-base-dark-nav-mobile-bg1) 100%);
-    --color-gradient-header: linear-gradient(90deg, var(--color-base-dark-gradient-header) 0%, var(--color-base-dark01-gradient-header) 100%);
-    --color-gradient-h1-hero-index: linear-gradient(90deg,  var(--color-base-dark-gradient-header) 5%, var(--color-primary4) 10%,var(--color-primary2) 35%, var(--color-primary1) 75%,  var(--color-primary4) 80% var(--color-base-dark-gradient-header) 90%);
-    --color-gradient-body: linear-gradient(90deg, var(--color-base-dark-gradient-header) 40%, var(--color-base-dark01-gradient-header) 100%);
+    --color-gradient-dark-hero: linear-gradient(to bottom, var(--color-base-dark-gradient-alpha-max) 10%, var(--color-base-dark-gradient-alpha-max) 20%, var(--color-base-dark-gradient-hero) 50%), url("./../../assets/imgs/background-hero1.png");
+    --color-gradient-nav: linear-gradient(90deg, var(--color-base-dark-nav-mobile-bg) 0%, var(--color-base-dark-nav-mobile-bg-alpha) 100%);
+    --color-gradient-header: linear-gradient(90deg, var(--color-base-dark-gradient-header-alpha) 0%, var(--color-base-dark) 100%);
+    --color-gradient-h1-hero-index: linear-gradient(90deg,  var(--color-base-dark-gradient-header-alpha) 5%, var(--color-primary4) 10%,var(--color-primary2) 35%, var(--color-primary1) 75%,  var(--color-primary4) 80% var(--color-base-dark-gradient-header-alpha) 90%);
+    --color-gradient-body: linear-gradient(90deg, var(--color-base-dark-gradient-header-alpha) 40%, var(--color-base-dark) 100%);
 
     /* ? ========== FONTS CSS ========== */
     --font-family: "Oswald", sans-serif;
@@ -73,8 +71,6 @@
     --shadow-text-h1-hero-index: 0px 0px 10px var(--color-primary3);
 
     /* ? ========== STROKER TEXT CSS ========== */
-    --stroke-text-h1-hero-index: 1.5px var(--color-base-light3);
-
-
+    --stroke-text-h1-hero-index: 1.5px var(--color-base-light-gray-medium);
 
 }

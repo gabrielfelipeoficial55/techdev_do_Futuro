@@ -42,13 +42,13 @@ img {
 
 ::-webkit-scrollbar-thumb {
     border-radius: 4px;
-    background: var(--color-base-dark4);
+    background: var(--color-base-dark3);
 }
 
 /* Scrollbar styles for Firefox */
 * {
     scrollbar-width: thin;
-    scrollbar-color: var(--color-base-dark4) var(--color-base-dark);
+    scrollbar-color: var(--color-base-dark3) var(--color-base-dark);
 }
 
 /* Scrollbar styles for Internet Explorer and Edge */

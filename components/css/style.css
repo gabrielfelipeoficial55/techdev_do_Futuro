@@ -1,6 +1,3 @@
-/* ? IMPORT FONT's */
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Oswald:wght@200..700&display=swap');
-
 /* ? IMPORTS CSS */
 @import "./variables.css";
 @import "./reset.css";
@@ -54,7 +51,7 @@
 
     position: absolute;
     content: "|";
-    color: var(--color-base-light3);
+    color: var(--color-base-light-gray-medium);
     margin-left: 0.25rem; /* 4px = 0.25rem */
     -webkit-text-stroke: var(--stroke-text-h1-hero-index);
     text-shadow: var(--shadow-text-h1-hero-index);
@@ -84,7 +81,7 @@
 
     font-size: 1.2rem; /* 1.2rem = 19.2px */
     line-height: 1.6rem; /* 1.6rem = 25.6px */
-    color: var(--color-base-light3);
+    color: var(--color-base-light-gray-medium);
     letter-spacing: 0.0725rem; /* 0.0725rem = 1.16px */
     max-width: 46ch; /* Quantidade de caracteres por largura = maxímo 46 caracteres */
     animation: textDescriptionZooIn 7s forwards;
@@ -121,7 +118,7 @@
 .cards .card {
 
     height: auto;
-    background: var(--color-base-dark2);
+    background: var(--color-base-dark-medium);
     padding: 1.875rem 1.875rem; /* 1.875rem = 30px */
     border-radius: 0.5rem; /* 0.5rem = 8px */
     display: flex;
@@ -225,7 +222,7 @@
     line-height: 30px;
     font-weight: 300;
     line-height: 1.875rem; /* 30px = 1.875rem */
-    color:  var(--color-base-light3);
+    color:  var(--color-base-light-gray-medium);
 
 }
 
