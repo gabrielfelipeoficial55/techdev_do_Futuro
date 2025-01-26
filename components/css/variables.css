@@ -7,16 +7,12 @@
     /* & ========== LIGHT ======== */
     --color-base-light:  #FFFFFF;
     --color-base-light1: #FAFAFA;
-    --color-base-light2: #D1D1D1;
     --color-base-light3: #BDBDBD;
     --color-base-light4: #AFAFAF;
 
     /** ========== DARK ======== */
-    --color-base-dark5:  #3B3B3B;
     --color-base-dark4:  #363636;
-    --color-base-dark3:  #2E2E2E;
     --color-base-dark2:  #171717;
-    --color-base-dark1:  #121212;
     --color-base-dark:   #000000;
 
     /*^ ========== COLORS TECHS ======== */
@@ -46,7 +42,6 @@
     --color-primary3: #7038C3;
     --color-primary4: #5C2FA1;
     --color-primary5: #49257F;
-    --color-primary6: #422377;
     
     /*  ========== GRADIENTS COLORS ======== */
 
