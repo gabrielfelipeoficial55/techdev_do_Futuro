@@ -7,9 +7,9 @@ Criação feita por Gabriel Felipe de Oliveira Rateiro, para ajudar pessoas quem
 <p align="center">
   <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#memo-licença">Licença</a>
-  <a href="#-Atenção aqui">Instruçoes e Recomendações</a>
+  <a href="https://github.com/gabrielfelipeoficial55/techdev_do_Futuro/tree/main?tab=readme-ov-file#aten%C3%A7%C3%A3o-aqui-">Instruçoes e Recomendações</a>
 </p>
 
 <p align="center">
@@ -18,7 +18,7 @@ Criação feita por Gabriel Felipe de Oliveira Rateiro, para ajudar pessoas quem
 
 <br>
 
-<p align="center">
+<p align="center" id="layout">
   <img alt="projeto DevLinks" src="./.github/preview.png" width="100%">
 </p>
 
