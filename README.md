@@ -19,7 +19,7 @@ Criação feita por Gabriel Felipe de Oliveira Rateiro, para ajudar pessoas quem
 <br>
 
 <p align="center" id="layout">
-  <img alt="projeto DevLinks" src="./.github/preview.png" width="100%">
+  <img alt="projeto TechDev" src="./techDev.png" width="100%">
 </p>
 
 ## 🚀 Tecnologias
