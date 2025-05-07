@@ -1,4 +1,4 @@
-<h1 align="center">TechDev of the future</h1>
+<h1 align="center">TechDev of the Future</h1>
 
 <p align="center">
 Criação feita por Gabriel Felipe de Oliveira Rateiro, para ajudar pessoas quem tem interece em conhecer mais sobre o universo de tecnologia e programação. <br/>
@@ -43,7 +43,7 @@ Esse projeto está sob a licença MIT.
 
 ---
 
-Feito com ♥ by Rocketseat and adapted by Gabriel Felipe de Oliveira Rateiro.
+Feito com ♥ by Gabriel Felipe de Oliveira Rateiro.
 
 ---
 
@@ -51,10 +51,15 @@ Feito com ♥ by Rocketseat and adapted by Gabriel Felipe de Oliveira Rateiro.
 ### Abaixo estão algumas das descrições do projeto.
 ---
 
-#### Projeto para quem irá utilizar para criar ou modificar.
-> Você, desenvolvedor(a), verá que na pasta `components/css/` estão todos os arquivos `.css`. Você poderá usá-los separadamente para facilitar, mas certifique-se de que nos arquivos `index.html`, `sobre.html`, `tecnologia.html`, na tag `<link rel="stylesheet" href="./components/css/style-unit.min.css">` no atributo `href=""`, esteja referenciando o arquivo `style.css` que está no caminho `./components/css/style.css`. O arquivo referenciado inicialmente é para ajudar na requisição, pois não é uma boa prática o navegador fazer requisições de vários arquivos `.css`, isso prejudica a performance do site.
+#### Para quem for ultilizar ou modificar leia abaixo...
+> Você, desenvolvedor(a), verá que na pasta `components/css/` estão todos os arquivos `.css`. Você poderá usá-los separadamente para facilitar no desenvolvimento, mas certifique-se de que nos arquivos `index.html`, `sobre.html`, `tecnologia.html`, na tag `<link rel="stylesheet" href="./components/css/style-unit.min.css">` no atributo `href=""`, esteja referenciando o arquivo `style.css` que está no caminho `./components/css/style.css`. O arquivo referenciado inicialmente no deploy é para ajudar na requisição dos navegadores, pois não é uma boa prática o navegador fazer requisições de vários arquivos `.css`, isso prejudica a performance do site.
 
 ---
 
 #### Caso encontre algum erro, por favor, não hesite em reportar.
 > Fazendo isso, poderei corrigir. Se você encontrar formas mais coerentes de fazer algo ou um jeito novo, por favor, também não hesite em me informar ou ensinar. Gostaria muito de aprender coisas novas.
+
+---
+
+#### Caso queira adaptar o desenvolver para melhorar suas habilidades.
+> Importante que no arquivo `.md` seja referenciadoo criador do projeto.
