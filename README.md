@@ -1,3 +1,52 @@
+<h1 align="center">TechDev of the future</h1>
+
+<p align="center">
+Criação feita por Gabriel Felipe de Oliveira Rateiro, para ajudar pessoas quem tem interece em conhecer mais sobre o universo de tecnologia e programação. <br/>
+
+
+<p align="center">
+  <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#memo-licença">Licença</a>
+  <a href="#-Atenção aqui">Instruçoes e Recomendações</a>
+</p>
+
+<p align="center">
+  <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=49AA26&labelColor=000000">
+</p>
+
+<br>
+
+<p align="center">
+  <img alt="projeto DevLinks" src="./.github/preview.png" width="100%">
+</p>
+
+## 🚀 Tecnologias
+
+Esse projeto foi desenvolvido com as seguintes tecnologias:
+
+- HTML e CSS
+- JavaScript
+- jQuery
+- Git e Github
+
+## 💻 Projeto
+
+O TechDev do Futuro, foi desenvolvido com a intenção de levar o conhcimento sobre tecnologias e progração, nele tem um acervo de links que te levam a documentação de cada tecnologia.
+
+- [Acesse o projeto finalizado, online](https://gabrielfelipeoficial55.github.io/techdev_do_Futuro/)
+
+## :memo: Licença
+
+Esse projeto está sob a licença MIT.
+
+---
+
+Feito com ♥ by Rocketseat and adapted by Gabriel Felipe de Oliveira Rateiro.
+
+---
+
 # Atenção aqui ...
 ### Abaixo estão algumas das descrições do projeto.
 ---
