@@ -33,17 +33,9 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-O TechDev do Futuro, foi desenvolvido com a intenção de levar o conhcimento sobre tecnologias e progração, nele tem um acervo de links que te levam a documentação de cada tecnologia.
+O TechDev do Futuro, foi desenvolvido com a intenção de levar o conhecimento sobre tecnologias e programação, nele tem um acervo de links que te levam a documentação de cada tecnologia.
 
 - [Acesse o projeto finalizado, online](https://gabrielfelipeoficial55.github.io/techdev_do_Futuro/)
-
-## :memo: Licença
-
-Esse projeto está sob a licença MIT.
-
----
-
-Feito com ♥ by Gabriel Felipe de Oliveira Rateiro.
 
 ---
 
@@ -63,3 +55,14 @@ Feito com ♥ by Gabriel Felipe de Oliveira Rateiro.
 
 #### Caso queira adaptar o desenvolver para melhorar suas habilidades.
 > Importante que no arquivo `.md` seja referenciadoo criador do projeto.
+
+---
+## :memo: Licença
+
+Esse projeto está sob a licença MIT.
+
+---
+
+Feito com ♥ by Gabriel Felipe de Oliveira Rateiro.
+
+---
