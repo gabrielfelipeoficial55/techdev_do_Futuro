@@ -35,7 +35,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 O TechDev do Futuro, foi desenvolvido com a intenção de levar o conhecimento sobre tecnologias e programação, nele tem um acervo de links que te levam a documentação de cada tecnologia.
 
-- [Acesse o projeto finalizado, online](https://gabrielfelipeoficial55.github.io/techdev_do_Futuro/)
+- <a href="https://gabrielfelipeoficial55.github.io/techdev_do_Futuro/" target="_blank">Acesse o projeto finalizado, online</a>
 
 ---
 
